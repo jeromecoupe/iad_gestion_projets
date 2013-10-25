@@ -73,7 +73,7 @@ Ces documents vont définir le projet dans toutes ses dimensions.
 
 Ce document détaille le contexte du projet, les publics cibles visés, leurs besoins et les business objectives du site.##### Cahier des charges technique
 Ce document détaille l’ensemble des pré requis techniques du site (environnement serveur), les outils utilisés (CMS et autres) et les technologies employées et leurs avantages ((X)HTML, CSS, Javascript, PHP, Rubyon Rails, Django, etc.). 
-Sont également mentionnés les standards et leurs avantages, ainsi qu’un mot sur la compatibilité visée au niveau des navigateurs. Si le projet comporte des aspects particuliers: e-commerce, resposive web design, site mobile dédié, etc. ils seront également mentionnés.
+Sont également mentionnés les standards et leurs avantages, ainsi qu’un mot sur la compatibilité visée au niveau des navigateurs. Si le projet comporte des aspects particuliers: e-commerce, responsive web design, site mobile dédié, etc. ils seront également mentionnés.
 L’important ici est de rester compréhensible. N’assommez pas le client avec du jargon pour du jargon.
 
 Les exemples donnés le sont ici pour un site Internet mais cela peut facilement être transposés à d'autres projets multimedia: Animation 3D, Motion Design, Stop Motion, etc.
