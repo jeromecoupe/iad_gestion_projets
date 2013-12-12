@@ -1,5 +1,28 @@
-# Cours IAD: gestion de projets
+# Cours IAD: gestion de projets multimédia
 
-Syllabus pour le cours de gestion de projets donné par Jérôme Coupé à l'IAD. Mis à jour en continu.
+Gestion de projets multimédia: 5 grandes dimensions
 
-Les cours encore au format .pdf seront mis en ligne petit à petit sur Github
+- Stratégie et objectifs
+- Contenus
+- Interactivité
+- Structure
+- Présentation
+
+Pré-production: documents de guidelines
+
+- Roadmap
+- Cahier des charges technique
+- Architecture d'information
+- Data structure
+- Wireframes et scénario
+- Charte graphique (style tiles, style guides, elements collages)
+
+Post-production
+
+- Maintenance
+- Formations
+- Promotion & Dissémination
+
+Syllabus du cours donné à l'Institut des Arts de Diffusion par Jérôme Coupé.
+
+Licence: [Creative Commons Attribution 4.0 International license](http://creativecommons.org/licenses/by/4.0/)
