@@ -137,6 +137,65 @@ La présentation a aussi une importance par elle-même. Nous avons tendance à c
 
 Dans le cadre de projets multimédia, cette dimension est matérialisée sous la forme de délivrables tels que: elements collage, bibliothèque de composants, style guides, style tiles, etc.
 
+## Exemples
+
+### Un jeu de plateforme (Mario)
+
+- **Stratégie et objectifs**
+  - S'adresser à des joueurs de tous niveau et de tous ages. La mécanique de jeu doit rester simple mais offrir beaucoup de possibilités pour que chacun y trouve son compte.
+  - Objectifs: vendre beaucoup de copies du jeux, élargit le public, pouvoir "porter" le jeu sur le plus de plateformes possible (PC, Consoles, Arcade, Mobile, ...)
+- **Contenus**
+  - personnages 2D
+  - décors avec éléments statique et dynamiques (ennemis, objets)
+  - bandes son
+  - textes pour interface et messages (plusieurs langues)
+  - interface minimaliste
+  - menu et options
+- **Fonctionnalités / interactivité**
+  - moteur de collisions (hitbox)
+  - tests d'animations (particulièrement les séquences (course, mort, etc ...))
+  - Intelligence artificielle pour les ennemis
+  - Editeur de level facile à utiliser pour créer de multiples niveau plus facilement
+- **Structure**
+  - macro: différents mondes et à l'intérieur de ceux-ci les différents niveaux et leur succcession
+    - certains objets peuvent faire interagir les niveau entre eux (clef, raccourcis, etc)
+  - micro: détail de la structure des différents niveau
+- **Présentation**
+  - Assez varié: pixel arts et couleurs simples pour les premiers, dessins 2D plus réalistes par après pour aller enfin vers la 3D.
+  - Character design sont importants: Mario et Luigi sont la constante durant tous les jeux. Les autres personnages prennent de plus en plus d'importance (Toad, etc.)
+  - Style graphique assez simple pour correspondre à l'univers (enfantin, ludique) mais aussi pour des raison techniques (performance) puisque les jeux doivent tourner sur des plateformes assez faibles.
+
+### Un site web (AirBnB)
+
+- **Stratégie et objectifs**
+  - public cible: les gens qui cherchent un logement pour court séjour (touristes, etc). Les gens qui ont un logement et qui veulent le mettre à disposition contre rémunération
+  - Stratégie: fournir une plateforme qui va faire l'intermédiaire entre les deux types de publics ciblés et prendre une commission.
+  - Objectifs: rendre la recherche, la mise à disposition de biens et les échanges monétaires les plus simples possibles. Avoir de plus en plus de logements mis à disposition et loués.
+- **Contenus**
+  - photos des logements (service de photographie, home staging, reviewing)
+  - interface: icones, textes, labels
+  - maps et localisation
+- **Fonctionnalités, interactivité**
+  - recherche avec critères croisé
+  - système de reviews et commentaires
+  - paiements
+  - messagerie
+  - gestion de comptes utilisateurs et login
+  - modération et validation
+  - etc.
+- **Structure**
+  - macro: les écrans principaux et comment ils sont connectés
+  - micro: le détail de chaque écran en terme de contenus et comment ils sont agencés.
+  - data structure: quels sont les champs d'un bien (photos, description, rating, propriétaire, etc.). Cette data structure va servir à faire les formulaires pour les gens qui veulent les mettre en locations et à les visualiser pour les locataires. Elle va aussi servir à établir les critères de recherche possibles.
+- **Présentation**
+  - Esthétique moderne, épurée et minimaliste. Cela sert à ce que les photos et les biens soient mis en avant, cela aide à la compréhension de l'interface et rend les choses plus simples à comprendre pour les utilisateurs.
+  - Systématisation assez importante pour pouvoir facilement cérer de nouvelles pages, ajouter de nouvelles fonctionnalités en respectant la même esthétique et en restant hyper cohérent.
+  - Création d'une identité de marque au travers d'une esthétique simple et épurée qui correspond aux objectifs.
+
+### Court métrage
+
+@TODO
+
 ## Gestion de projets: principes de base
 
 ### Se poser en partenaire
@@ -163,10 +222,10 @@ Les agences ou les indépendants ont également parfois tendance à sous-estimer
 
 ### Estimation de prix
 
-La première étape consiste à évaluer au mieux le prix que vous devez demander pour vos prestations. En Belgique, on peut appliquer une formule relativement simple:
+La première étape consiste à évaluer au mieux le prix que vous devez demander pour vos prestations. En Belgique, on peut appliquer une formule relativement simple pour estimer les choses (je ne prétends pas être comptable):
 
 1. Salaire net * 2 = Salaire brut
-2. Salaire brut * 13.85 * 1.25 = coût annuel société
+2. Salaire brut * 13.85 (13ème mois + double pécule de vacances) * 1.32 (cahrges patronales) = coût annuel société
 3. Coût annuel société / 220 = coût par jour
 4. Ajoutez encore un peu d'argent pour couvrir vos frais, prendre une assurance pension et vous constituer un petit matelas pour faire face aux jours de vaches maîgres.
 
@@ -174,12 +233,12 @@ La première étape consiste à évaluer au mieux le prix que vous devez demande
 
 Vos offres peuvent être [de divers types](https://www.shopify.com/partners/blog/113020358-a-web-designer-s-guide-to-pricing-strategies):
 
-- Offres forfaitaires: vous connaissez votre prix à la journée, vous estimez le temps nécessaire à la réalisation, vous multipliez l'un par l'autre et vous avez votre prix total (vous prenez les risques)
-- Offres en régie: vous connaissez votre prix à la journée et vous l'appliquez simplement pour la réalisation du projet dont la durée est seulement estimée (le client prend les risques)
+- **Offres forfaitaires**: vous connaissez votre prix à la journée, vous estimez le temps nécessaire à la réalisation, vous multipliez l'un par l'autre et vous avez votre prix total (vous prenez les risques)
+- **Offres en régie**: vous connaissez votre prix à la journée et vous l'appliquez simplement pour la réalisation du projet dont la durée est seulement estimée (le client prend les risques)
 - Offres mixtes: vous faites une offre qui mèle les deux premières approches (forfaitaire + régie pour certains postes ou pour les itérations)
-- [Value based pricing](https://abookapart.com/products/pricing-design): vous évaluez les bénéfices réalisés par le client une fois votre travail livré et vous prenez un pourcentage.
+- **[Value based pricing](https://abookapart.com/products/pricing-design)**: vous évaluez les bénéfices réalisés par le client une fois votre travail livré et vous prenez un pourcentage.
 
-Voyons quelques exemple pratiques.
+Voyons quelques exemple pratiques:
 
 ### Phase de découverte
 
@@ -191,7 +250,7 @@ Cette phase de découverte peut être gratuite pour des projets de faible import
 
 Vous pouvez commencer à débroussailler le terrain en vous servant d’abord d’un questionnaire client classique. Vous en trouverez plusieurs exemples en ligne. Les questions posées dans ce type de formulaire permettent d’avoir une vue d’ensemble du type de client, du budget et des ressources qu’il est prêt à consacrer au projet, etc.
 
-**Exemples:** *[Bold](http://hellobold.com/project-inquiry/), [Happy Cog](http://happycog.com/contact)*
+**Exemples:** *[Mud](http://ournameismud.co.uk/project-planner), [Happy Cog](http://happycog.com/contact)*
 
 Cependant, rien ne remplace un entretien avec votre futur client. Celui-ci vous permettra de voir quelle sorte de client vous avez face à vous, d'évaluer son implication dans le projet, de voir quel budget est disponible, quels sont ses concurrents, quels sont les objectifs du projet pour son entreprise, etc.
 
