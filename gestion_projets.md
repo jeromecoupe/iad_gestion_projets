@@ -10,11 +10,11 @@ Etant professionnellement actif dans le monde de l’Internet, ce cours sera ori
 
 ### Stratégie & objectifs
 
-<blockquote>
-<p>Now the general who wins a battle makes many calculations in his temple where the battle is fought. The general who loses a battle makes but few calculations beforehand.</p>
-<p>Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose.</p>
-<p>SZUN TZU “The art of war”</p>
-</blockquote>
+> Now the general who wins a battle makes many calculations in his temple where the battle is fought. The general who loses a battle makes but few calculations beforehand.
+>
+> Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose.
+>
+> SZUN TZU “The art of war”
 
 C’est souvent une des dimensions méconnues ou sous-estimée dans les projets de communication de tous types. Pourtant, cette phase de réflexion est d’une grande importance.
 
@@ -42,11 +42,11 @@ Vos utilisateurs ont également des besoins ou des attentes (assimiler de l'info
 
 ### Contenus
 
-<blockquote>
-<p>Bringing up Content for the first time with a client is like discussing contraception.</p>
-<p>It might be awkward, but it needs to be broached before any action happens … and it’s disastrous to assume the other party has the matter in hand.</p>
-<p>Relly Annett-Baker</p>
-</blockquote>
+> Bringing up Content for the first time with a client is like discussing contraception.
+>
+> It might be awkward, but it needs to be broached before any action happens … and it’s disastrous to assume the other party has the matter in hand.
+>
+> Relly Annett-Baker
 
 Un projet multimédia, comme tout projet de communication vise a transmettre un certain message à ses utilisateurs. Ce message peut prendre différentes formes : textuelle, iconique, vidéo, son, animation, 3D, etc.
 
@@ -58,10 +58,9 @@ Dans le cadre de projets multimédia, cette dimension est matérialisée sous la
 
 ### Interactivité et fonctionnalités
 
-<blockquote>
-<p>True interactivity is not about clicking on icons or downloading files, it's about encouraging communication.</p>
-<p>Edwin Schlossberg</p>
-</blockquote>
+> True interactivity is not about clicking on icons or downloading files, it's about encouraging communication.
+>
+> Edwin Schlossberg
 
 Les projets multimédia sont des outils de communication orientés vers la transmission de contenus, mais intègrent également des fonctionnalités interactives qui visent à la réalisation de tâches ou encore à faire collaborer divers utilisateurs.
 
@@ -76,10 +75,9 @@ Dans le cadre de projets multimédia, cette dimension est matérialisée sous la
 
 ### Structure
 
-<blockquote>
-<p>Information architecture is at the very center of the electronic information storm. Without effective means to structure and present the information we produce we are blown about by the vast quantities & the variable quality of that information.</p>
-<p>Bob Boiko</p>
-</blockquote>
+> Information architecture is at the very center of the electronic information storm. Without effective means to structure and present the information we produce we are blown about by the vast quantities & the variable quality of that information.
+>
+> Bob Boiko
 
 La structuration de l’information et de l’interactivité est également centrale dans le cadre d’un projet multimédia. Elle s’effectue à deux grands niveaux: macro et micro.
 
@@ -346,10 +344,8 @@ Exemples: Style Guides ([BBC Global Experience Language](http://www.bbc.co.uk/ge
 
 Ces délivrables permettent de décrire les composants de la charte graphique (logo, couleurs, typographie, images, etc.) sans pour autant devoir aller jusqu'à la production de chacun des écrans.
 
-<blockquote>
-<p>[the design process] is about designing, prototyping and making. When you separate those, I think the final result suffers."</p>
-<p>Jonathan Ive, March, 2012</p>
-</blockquote>
+> [... the design process ...] is about designing, prototyping and making. When you separate those, I think the final result suffers."
+> Jonathan Ive, March, 2012
 
 ### Phase de production
 
@@ -359,10 +355,9 @@ Les projets multimedia ont grandement évolués et sont devenus plus complexes
 
 Cela requiert des changements dans les process et [workflow utilisés](http://viljamis.com/blog/2012/responsive-workflow/), qui deviennent de plus en plus itératifs et participatifs et exigeants une plus grande collaboration et un dialogue plus étroit entre les différents intervenants.
 
-<blockquote>
-<p>You must also address the very human issue of communication. Earlier and more frequent collaboration among team members and the client must become the rule in your workflow, not the exception. Content, design, and development team members must review and collaborate regularly at every stage in the creation process until the site is live. We can’t ‘throw it over the wall’ anymore— at least, not if we want our sites to be excellent. There are simply too many moving parts now. Go forth and collaborate.</p>
-<p>Drew Clemens - Smashing Magazine</p>
-</blockquote>
+> You must also address the very human issue of communication. Earlier and more frequent collaboration among team members and the client must become the rule in your workflow, not the exception. Content, design, and development team members must review and collaborate regularly at every stage in the creation process until the site is live. We can’t ‘throw it over the wall’ anymore— at least, not if we want our sites to be excellent. There are simply too many moving parts now. Go forth and collaborate.
+>
+> Drew Clemens - Smashing Magazine
 
 #### Scope Creep
 
@@ -400,8 +395,9 @@ Un exemple des tâches courantes pour la production d'un site Internet
 - Déploiement
 - Tests finaux sur le serveur de production
 
-**exemple: montrer un programme comme Trello ou un projet sur Github**
-**exercices: phases principales pour un court métrage effets speciaux, un motion design et une animation 3D**
+**Exercice**: montrer un programme comme Trello ou un projet sur Github
+
+**Exercice**: phases principales pour un court métrage effets speciaux, un motion design et une animation 3D
 
 ### Phase de post-production.
 
