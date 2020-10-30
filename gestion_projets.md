@@ -32,13 +32,13 @@ Les projets multimédia, quelle que soit leur nature, sont toujours des projets 
 
 La stratégie est, en une phrase, le but poursuivi par le concepteur d’un projet multimédia. Les objectifs sont une déclinaison de cette stratégie. Leur caractéristique principale est d’être mesurables.
 
-**Exemple Google search:** *stratégie (rendre disponible l’information mondiale) et objectif (algorithme de traitement).*
+**Exemple Google search:** _stratégie (rendre disponible l’information mondiale) et objectif (algorithme de traitement)._
 
 #### Besoins utilisateurs
 
 Vos utilisateurs ont également des besoins ou des attentes (assimiler de l'information, vivre une émotion, trouver une information, accomplir une tâche, etc.). Un projet réussi identifie ces attentes et tente de se placer à la croisée des chemins entre la stratégie et les objectifs du concepteur et les besoins des utilisateurs.
 
-**Exemple chez Google:** *stratégie (générer des revenus publicitaires) et objectif (créer une grade variété de services (search, maps, gmail, google+, etc.) correspondant aux besoins des utilisateurs pour pouvoir servir de plus en plus de publicité à un nombre croissant d'utilisateurs).*
+**Exemple chez Google:** _stratégie (générer des revenus publicitaires) et objectif (créer une grade variété de services (search, maps, gmail, google+, etc.) correspondant aux besoins des utilisateurs pour pouvoir servir de plus en plus de publicité à un nombre croissant d'utilisateurs)._
 
 ### Contenus
 
@@ -67,7 +67,7 @@ Les projets multimédia sont des outils de communication orientés vers la trans
 Ces applications et fonctionnalités peuvent être simples ou complexes.
 
 - **Simples:** motion design, courte animation 3D, moteur de recherche, quiz multimédia, module de sondage, commentaires,
-nuage de tags, lecteurs vidéos et audio, etc.
+  nuage de tags, lecteurs vidéos et audio, etc.
 - **Complexes:** film avec effets spéciaux, court metrage 2D ou 3D, e-commerce, applications en ligne (services d’impressions de photos, service d’édition en ligne, etc.).
 - **Collaboration:** jeu video, MMOG, outil de management de contenu (CMS), sites communautaires (Facebook, Twitter), forums, etc.
 
@@ -123,15 +123,12 @@ Celle-ci vient renforcer les 4 autres dimensions:
 - Elle soutient les objectifs et la stratégie et correspond au public cible et à ses besoins ([Starcraft II](http://eu.battle.net/sc2/en/))
 - Elle soutient les contenus et les met en avant ([YouTube](http://www.youtube.com/), [New York Times](http://www.nytimes.com/))
 - Elle soutient l’interactivité et permet aux utilisateurs de réaliser facilement les tâches prévues ([Twitter](https://twitter.com/jeromecoupe), [Les pages d'or](http://www.pagesdor.be/))
-- Elle soutient les divers niveaux de structuration dont nous avons parlés plus haut
-	- l’architecture d’information (indicateur de navigation en cours)
-la structure interne des pages ou des écrans (création de zones graphiquement distinctes)
-	- la structuration des contenus (utilisation de titres et de sous titres, de paragraphes, de listes pour les textes, utilisation de codes couleurs pour les graphiques, etc.)
-	- La structuration de l’interactivité (les diverses sous tâches sont bien identifiées dans le processus d’upload sur Flickr ou dans l’achat d’un billet d’avion sur Brussels Airlines).
+- Elle soutient les divers niveaux de structuration dont nous avons parlés plus haut - l’architecture d’information (indicateur de navigation en cours)
+  la structure interne des pages ou des écrans (création de zones graphiquement distinctes) - la structuration des contenus (utilisation de titres et de sous titres, de paragraphes, de listes pour les textes, utilisation de codes couleurs pour les graphiques, etc.) - La structuration de l’interactivité (les diverses sous tâches sont bien identifiées dans le processus d’upload sur Flickr ou dans l’achat d’un billet d’avion sur Brussels Airlines).
 
 La présentation a aussi une importance par elle-même. Nous avons tendance à considérer que les choses que nous trouvons belles fonctionnent mieux et sont plus faciles à utiliser. La présentation donne un certain style, une certaine "tonalité" au projet.
 
-**Exemple :** *site de [Red Bull Music Academy](http://www.redbullmusicacademy.com/) vs site [BNP Paribas Fortis](https://www.bnpparibasfortis.be/)*
+**Exemple :** _site de [Red Bull Music Academy](http://www.redbullmusicacademy.com/) vs site [BNP Paribas Fortis](https://www.bnpparibasfortis.be/)_
 
 Dans le cadre de projets multimédia, cette dimension est matérialisée sous la forme de délivrables tels que: elements collage, bibliothèque de composants, style guides, style tiles, etc.
 
@@ -200,7 +197,7 @@ Dans le cadre de projets multimédia, cette dimension est matérialisée sous la
 
 Il est important dans un projet multimédia de vous présenter comme un partenaire plutôt que comme un simple exécutant. Ce type de projet doit être mené côté à côté avec votre client, chacun apportant son expertise et ses compétences.
 
-**Vos apports:** expertise technique et bonnes pratiques, capacité à comprendre et identifier les problématiques,  capacité à proposer des solutions concrètes, méthodologie de travail claire et détaillée, processus de validation efficace des différentes étapes du projet.
+**Vos apports:** expertise technique et bonnes pratiques, capacité à comprendre et identifier les problématiques, capacité à proposer des solutions concrètes, méthodologie de travail claire et détaillée, processus de validation efficace des différentes étapes du projet.
 
 **Les apports du client:** bonne connaissance de son secteur et de son business, définition claire de ses attentes en regard du projet, transmission efficace des matières premières nécessaires, implication dans le projet, processus de décision clair.
 
@@ -220,11 +217,11 @@ Les agences ou les indépendants ont également parfois tendance à sous-estimer
 
 ### Estimation de prix
 
-La première étape consiste à évaluer au mieux le prix que vous devez demander pour vos prestations. En Belgique, on peut appliquer une formule relativement simple pour estimer les choses (je ne prétends pas être comptable):
+La première étape consiste à évaluer au mieux le prix que vous devez demander pour vos prestations. En Belgique, on peut appliquer une formule relativement simple pour estimer les choses (je ne prétends pas être comptable, mais j'en ai consulté l'un ou l'autre):
 
-1. Salaire net * 2 = Salaire brut
-2. Salaire brut * 13.85 (13ème mois + double pécule de vacances) * 1.32 (cahrges patronales) = coût annuel société
-3. Coût annuel société / 220 = coût par jour
+1. Salaire net \* 2 = Salaire brut
+2. Salaire brut _ 13.85 (13ème mois + double pécule de vacances) _ 1.32 (charges patronales) = coût annuel société
+3. Coût annuel société / 220 jours ouvrables = coût par jour
 4. Ajoutez encore un peu d'argent pour couvrir vos frais, prendre une assurance pension et vous constituer un petit matelas pour faire face aux jours de vaches maîgres.
 
 ### Types d'offres
@@ -248,7 +245,7 @@ Cette phase de découverte peut être gratuite pour des projets de faible import
 
 Vous pouvez commencer à débroussailler le terrain en vous servant d’abord d’un questionnaire client classique. Vous en trouverez plusieurs exemples en ligne. Les questions posées dans ce type de formulaire permettent d’avoir une vue d’ensemble du type de client, du budget et des ressources qu’il est prêt à consacrer au projet, etc.
 
-**Exemples:** *[Mud](http://ournameismud.co.uk/project-planner), [Happy Cog](http://happycog.com/contact)*
+**Exemples:** _[Mud](http://ournameismud.co.uk/project-planner), [Happy Cog](http://happycog.com/contact)_
 
 Cependant, rien ne remplace un entretien avec votre futur client. Celui-ci vous permettra de voir quelle sorte de client vous avez face à vous, d'évaluer son implication dans le projet, de voir quel budget est disponible, quels sont ses concurrents, quels sont les objectifs du projet pour son entreprise, etc.
 
@@ -304,8 +301,8 @@ Si le projet comporte des aspects particuliers (e-commerce, responsive web desig
 
 L’important ici est de rester compréhensible. N’assommez pas le client avec du jargon pour du jargon.
 
-- **Exemple:** *Exemple de cahier des charges technique*
-- **Exercice:** *Faire un cahier des charges technique pour un projet simple*
+- **Exemple:** _Exemple de cahier des charges technique_
+- **Exercice:** _Faire un cahier des charges technique pour un projet simple_
 
 ##### Architecture d’information
 
@@ -313,8 +310,8 @@ Il s’agit d’un schéma détaillant la structure d'un projet multimedia au ni
 
 De nombreux programmes existent pour créer facilement des schémas d’architecture d’information. Adobe Illustrator ou du papier et quelques marqueurs font cependant parfaitement l’affaire.
 
-- **Exemple:** *Exemples d'architectures d'information*
-- **Exercice:** *Réaliser une architecture d'information pour un site simple: blog / portfolio*
+- **Exemple:** _Exemples d'architectures d'information_
+- **Exercice:** _Réaliser une architecture d'information pour un site simple: blog / portfolio_
 
 ##### Data Structure
 
@@ -322,10 +319,10 @@ Ce document défini la structure d'un projet multimedia au niveau micro (data st
 
 Par exemple, une news dans un site Intrenet est composée des éléments suivants: titre, photo, légende de la photo, copyright de la photo, date de publication, summary, body.
 
-- **Exemple:** *Exemples de data structures*
-- **Exercice:** *Réaliser une data structure pour un site simple: blog / portfolio*
+- **Exemple:** _Exemples de data structures_
+- **Exercice:** _Réaliser une data structure pour un site simple: blog / portfolio_
 
-#####  Wireframes, Scénario et tests de production
+##### Wireframes, Scénario et tests de production
 
 Ces documents matérialisent architecture d'information et data structure de façon illustrée. Cela permet de donner plus de relief au projet et de montrer à quoi leproduit fini va ressembler. Il est déjà possible à ce stade d'identifier des faiblesses et de les corriger.
 
@@ -333,8 +330,8 @@ Si besoin est on réalise également des tests de production pour établir des t
 
 Ces documents et tests permettent de matérialiser le projet pour les clients, mais aussi d'avoir des conversations impliquant tous les membres de l'équipe et de recueillir leurs inputs.
 
-- **Exemples:** *[Wireframes détaillés](http://viget.com/work/wwf) par Viget / La [Gray Box Methodology](http://v3.jasonsantamaria.com/archive/2004/05/24/grey_box_method.php) par Jason Santa Maria / [Designing in text](http://www.peachpit.com/articles/article.aspx?p=2040824) par Stephen hay*
-- **Exercice** *Réaliser des wireframes et un scénario pour un projet simple: blog / portfolio / animation / effets speciaux*
+- **Exemples:** _[Wireframes détaillés](http://viget.com/work/wwf) par Viget / La [Gray Box Methodology](http://v3.jasonsantamaria.com/archive/2004/05/24/grey_box_method.php) par Jason Santa Maria / [Designing in text](http://www.peachpit.com/articles/article.aspx?p=2040824) par Stephen hay_
+- **Exercice** _Réaliser des wireframes et un scénario pour un projet simple: blog / portfolio / animation / effets speciaux_
 
 #### Charte graphique
 
