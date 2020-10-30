@@ -20,7 +20,7 @@ C’est souvent une des dimensions méconnues ou sous-estimée dans les projets 
 
 Un site web ou tout autre projet multimédia **poursuit une stratégie**, il **s’adresse à un public cible**, vise à **remplir certains objectifs** (côté concepteur) et à **satisfaire certains besoins** (côté utilisateur).
 
-Dans le cadre de projets multimédia, cette dimension est matérialisée sous la forme de délivrables tels que: études stratégiques et identification des KPI, études comparatives et de la concurrence, personas, user journeys, wireflows, job to be done analysis, cahier des charges technique, storyboard, etc.
+Dans le cadre de projets multimédia, cette dimension est matérialisée sous la forme de délivrables tels que: études stratégiques et identification des KPI, études comparatives et de la concurrence, personas, user journeys, wireflows, job to be done analysis, cahier des charges technique, etc.
 
 #### Publics cibles
 
@@ -69,9 +69,9 @@ Ces applications et fonctionnalités peuvent être simples ou complexes.
 - **Simples:** motion design, courte animation 3D, moteur de recherche, quiz multimédia, module de sondage, commentaires,
   nuage de tags, lecteurs vidéos et audio, etc.
 - **Complexes:** film avec effets spéciaux, court metrage 2D ou 3D, e-commerce, applications en ligne (services d’impressions de photos, service d’édition en ligne, etc.).
-- **Collaboration:** jeu video, MMOG, outil de management de contenu (CMS), sites communautaires (Facebook, Twitter), forums, etc.
+- **Collaboration:** jeu video, films choix multiples, rendus 3D en temps réels, MMOG, outil de management de contenu (CMS), sites communautaires (Facebook, Twitter), etc.
 
-Dans le cadre de projets multimédia, cette dimension est matérialisée sous la forme de délivrables tels que: wireflows, specifications, prototypes, etc.
+Dans le cadre de projets multimédia, cette dimension est matérialisée sous la forme de délivrables tels que: wireflows, specifications, prototypes, tests techniques, etc.
 
 ### Structure
 
@@ -107,7 +107,7 @@ Lorsqu'il s'agit d'applications ou de jeux, une attention particulière est acco
 
 Les contenus présents dans les divers écrans d'un site, d'une application, d'un jeux, d'une animation etc. sont également hautement structurés: marche d'un personnage, animations faciales, structuration et formulation des textes, éléments présents à l'intérieur des plans d'un court métrage, etc.
 
-Dans le cadre de projets multimédia, cette dimension est matérialisée sous la forme de délivrables tels que: data structures, description des plans, description des animations, etc.
+Dans le cadre de projets multimédia, cette dimension est matérialisée sous la forme de délivrables tels que: data structures (web, applications), storyboard et description des plans (minutages, transitions, etc), animatiques, description des animations, etc.
 
 ### Présentation
 
@@ -130,7 +130,7 @@ La présentation a aussi une importance par elle-même. Nous avons tendance à c
 
 **Exemple :** _site de [Red Bull Music Academy](http://www.redbullmusicacademy.com/) vs site [BNP Paribas Fortis](https://www.bnpparibasfortis.be/)_
 
-Dans le cadre de projets multimédia, cette dimension est matérialisée sous la forme de délivrables tels que: elements collage, bibliothèque de composants, style guides, style tiles, etc.
+Dans le cadre de projets multimédia, cette dimension est matérialisée sous la forme de délivrables tels que: moodboards, elements collage, bibliothèque de composants, style guides, style tiles, etc.
 
 ## Exemples
 
