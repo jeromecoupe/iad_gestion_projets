@@ -137,28 +137,28 @@ Dans le cadre de projets multimédia, cette dimension est matérialisée sous la
 ### Un jeu de plateforme (Mario)
 
 - **Stratégie et objectifs**
-  - S'adresser à des joueurs de tous niveau et de tous ages. La mécanique de jeu doit rester simple mais offrir beaucoup de possibilités pour que chacun y trouve son compte.
+  - S'adresser à des joueurs de tous niveaux et de tous âges. La mécanique de jeu doit rester simple mais offrir beaucoup de possibilités pour que chacun y trouve son compte.
   - Objectifs: vendre beaucoup de copies du jeux, élargit le public, pouvoir "porter" le jeu sur le plus de plateformes possible (PC, Consoles, Arcade, Mobile, ...)
 - **Contenus**
   - personnages 2D
-  - décors avec éléments statique et dynamiques (ennemis, objets)
+  - décors avec éléments statiques et dynamiques (ennemis, objets)
   - bandes son
-  - textes pour interface et messages (plusieurs langues)
+  - textes pour interfaces et messages (multilingue)
   - interface minimaliste
-  - menu et options
+  - menus et options
 - **Fonctionnalités / interactivité**
   - moteur de collisions (hitbox)
   - tests d'animations (particulièrement les séquences (course, mort, etc ...))
-  - Intelligence artificielle pour les ennemis
-  - Editeur de level facile à utiliser pour créer de multiples niveau plus facilement
+  - "Intelligence artificielle" pour les ennemis
+  - Editeur de niveaux facile à utiliser pour créer de multiples niveaux plus facilement
 - **Structure**
   - macro: différents mondes et à l'intérieur de ceux-ci les différents niveaux et leur succcession
-    - certains objets peuvent faire interagir les niveau entre eux (clef, raccourcis, etc)
-  - micro: détail de la structure des différents niveau
+    - certains objets peuvent faire interagir les niveaux entre eux (clef, raccourcis, etc)
+  - micro: détail de la structure des différents niveaux
 - **Présentation**
-  - Assez varié: pixel arts et couleurs simples pour les premiers, dessins 2D plus réalistes par après pour aller enfin vers la 3D.
-  - Character design sont importants: Mario et Luigi sont la constante durant tous les jeux. Les autres personnages prennent de plus en plus d'importance (Toad, etc.)
-  - Style graphique assez simple pour correspondre à l'univers (enfantin, ludique) mais aussi pour des raison techniques (performance) puisque les jeux doivent tourner sur des plateformes assez faibles.
+  - Assez variée: pixel arts et couleurs simples pour les premiers jeux, dessins 2D plus réalistes par après pour aller enfin vers la 3D.
+  - Character design est importants: Mario et Luigi sont la constante durant tous les jeux. Les autres personnages prennent de plus en plus d'importance (Toad, etc.)
+  - Style graphique assez simple pour correspondre à l'univers (enfantin, ludique) mais aussi pour des raisons techniques (performance) puisque les jeux doivent tourner sur des plateformes assez faibles.
 
 ### Un site web (AirBnB)
 
@@ -168,28 +168,50 @@ Dans le cadre de projets multimédia, cette dimension est matérialisée sous la
   - Objectifs: rendre la recherche, la mise à disposition de biens et les échanges monétaires les plus simples possibles. Avoir de plus en plus de logements mis à disposition et loués.
 - **Contenus**
   - photos des logements (service de photographie, home staging, reviewing)
-  - interface: icones, textes, labels
+  - interface: icones, labels
   - maps et localisation
+  - textes de contenus
 - **Fonctionnalités, interactivité**
-  - recherche avec critères croisé
+  - recherches avec critères croisés
   - système de reviews et commentaires
   - paiements
-  - messagerie
+  - messagerie (broadcast via sms)
   - gestion de comptes utilisateurs et login
   - modération et validation
   - etc.
 - **Structure**
-  - macro: les écrans principaux et comment ils sont connectés
-  - micro: le détail de chaque écran en terme de contenus et comment ils sont agencés.
-  - data structure: quels sont les champs d'un bien (photos, description, rating, propriétaire, etc.). Cette data structure va servir à faire les formulaires pour les gens qui veulent les mettre en locations et à les visualiser pour les locataires. Elle va aussi servir à établir les critères de recherche possibles.
+  - macro: les écrans principaux et comment ils sont connectés (wireflows)
+  - micro: le détail de chaque écran en terme de contenus et comment ils sont agencés
+  - data structure: quels sont les champs d'un bien (photos, description, rating, propriétaire, latitude, longitude, etc.). Cette data structure va servir à faire les formulaires pour les gens qui veulent les mettre en locations et à les visualiser pour les locataires. Elle va aussi servir à établir les critères de recherche possibles.
 - **Présentation**
   - Esthétique moderne, épurée et minimaliste. Cela sert à ce que les photos et les biens soient mis en avant, cela aide à la compréhension de l'interface et rend les choses plus simples à comprendre pour les utilisateurs.
   - Systématisation assez importante pour pouvoir facilement cérer de nouvelles pages, ajouter de nouvelles fonctionnalités en respectant la même esthétique et en restant hyper cohérent.
   - Création d'une identité de marque au travers d'une esthétique simple et épurée qui correspond aux objectifs.
 
-### Court métrage
+### Court métrage (Luxo Jr.)
 
-@TODO
+- **Stratégie et objectifs**
+  - Publics cibles: public jeunes et enfants // fans 3d, parents, etc. Au niveau des enfants les accrocher avec une histoire courte et simple mais avec des éléments ludiques et des sentiments dans lesquels ils peuvent se reconnaitre (archétypes). Au niveau des autres public performance de rendre vivants et sympathiques des objets usuels.
+  - Objectifs: démo technique, contrer la réputation de la 3D d'être froide, sans émotions.
+- **Contenus**
+  - Décors
+  - Personnages (riggings, tectures, lumières)
+  - Musique
+  - Bruitages
+  - Textes etc (génériques)
+- **Particularités / Interactivité**
+  - Tout réalsier dans un seul plan fixe (économies)
+  - Rendre vivants / attachants des personnages qui sont très mécaniques / rigides (rigging / contraintes / timing)
+  - Animations principales (lampes) et secondaires (fils, balles, etc.)
+- **Structure**
+  - Macro: mise en place, arrivé de Jr, jeu, gaffe, chute
+  - Micro: storyboard (lampe fixe sur le bureau, balle qui arrive, animation inspection balle, shoot avec abat jour)
+- **Présentation**
+  - Textures cartoon
+  - Fond noir pour éviter d'avoir trop de décors et pour centrer l'attention sur les personnages
+  - Importance de la lumière (fait parie des personnages)
+  - Contraste de couleurs entre les lampes et le décors (neutres) et les balles (colorées)
+  - Contraste générique (mesh / making off) animation (textures et lumières)
 
 ## Gestion de projets: principes de base
 
@@ -230,8 +252,8 @@ Vos offres peuvent être [de divers types](https://www.shopify.com/partners/blog
 
 - **Offres forfaitaires**: vous connaissez votre prix à la journée, vous estimez le temps nécessaire à la réalisation, vous multipliez l'un par l'autre et vous avez votre prix total (vous prenez les risques)
 - **Offres en régie**: vous connaissez votre prix à la journée et vous l'appliquez simplement pour la réalisation du projet dont la durée est seulement estimée (le client prend les risques)
-- Offres mixtes: vous faites une offre qui mèle les deux premières approches (forfaitaire + régie pour certains postes ou pour les itérations)
-- **[Value based pricing](https://abookapart.com/products/pricing-design)**: vous évaluez les bénéfices réalisés par le client une fois votre travail livré et vous prenez un pourcentage.
+- **Offres mixtes**: vous faites une offre qui mèle les deux premières approches (forfaitaire + régie pour certains postes ou pour les itérations)
+- **Value based pricing**: vous évaluez les bénéfices réalisés par le client une fois votre travail livré et vous prenez un pourcentage.
 
 Voyons quelques exemple pratiques:
 
@@ -240,34 +262,6 @@ Voyons quelques exemple pratiques:
 Lors de cette phase, vous allez découvrir votre client potentiel et ses activités. Vous allez devoir vous immerger dans le projet pour en connaître les tenants et aboutissants et proposer des solutions cohérentes. Il vous faudra aussi vérifier que les deux parties sont intéressées par travailler ensemble.
 
 Cette phase de découverte peut être gratuite pour des projets de faible importance (elle se fait alors avant l'offre) et est souvent payante pour des projets complexes ou de plus longue haleine (elle se fait alors après l'offre).
-
-#### Premières approches
-
-Vous pouvez commencer à débroussailler le terrain en vous servant d’abord d’un questionnaire client classique. Vous en trouverez plusieurs exemples en ligne. Les questions posées dans ce type de formulaire permettent d’avoir une vue d’ensemble du type de client, du budget et des ressources qu’il est prêt à consacrer au projet, etc.
-
-**Exemples:** _[Mud](http://ournameismud.co.uk/project-planner), [Happy Cog](http://happycog.com/contact)_
-
-Cependant, rien ne remplace un entretien avec votre futur client. Celui-ci vous permettra de voir quelle sorte de client vous avez face à vous, d'évaluer son implication dans le projet, de voir quel budget est disponible, quels sont ses concurrents, quels sont les objectifs du projet pour son entreprise, etc.
-
-Cette phase se clôture par une réunion avec l’ensemble de votre équipe pour définir le plus précisément possible le type de client et de projet proposé.
-
-#### Caractérisation du projet et du client
-
-Votre objectif lors de cette phase est de mettre à plat tous les éléments recueillis lors de la phase de découverte et d’en faire la synthèse.
-
-##### Le client
-
-La première étape consiste à définir le type de client que vous avez face à vous. Le but est ici d’évaluer son implication dans le projet, de savoir quel est son budget, les gens dédiés à la maintenance du site, etc.
-
-Dans Mall a publié un article intéressant sur [les questions à poser lorsqu'on prend contact avec un nouveau client](http://danielmall.com/articles/prequalifying-clients/). Andy Rutledge mentionne pour sa part [quelques uns des facteurs pouvant influencer le prix d'un projet et qui ont trait aux caractéristiques du client](http://www.andyrutledge.com/calculating-hours.php).
-
-Vous pouvez également vous servir de notre grille de 5 dimensions:
-
-- **Stratégie, objectifs et publics cibles:** A qui ce site s’adresse-t-il ? Quels sont les objectifs poursuivis par le site et les moyens de mesurer leur succès ? Si plusieurs objectifs existent, lesquels sont primaires et lesquels sont secondaires ? Peut-on faire une proposition originale qui rencontrera les objectifs du client ?
-- **Contenus:** quels sont les contenus disponibles, les contenus à adapter et les contenus à créer ? Existe-t-il une personne dédiée à la production de contenus côté client ?
-- **Interactivité:** quelles sont les fonctionnalités à prévoir ? Faut il prévoir un CMS pour la mise à jour du site ?
-- **Structure:** première ébauche d’architecture d’information pour le site ou le CDROM ? Sait on déjà ce qu’on devra mettre sur la page d’accueil du site ? Quels seront les principaux types de contenus et quelles sont leur data-structure ? Si des applications complexes existent, quelles taches peuvent être réalisées et comment les séquencer ?
-- **Présentation, style graphique:** Le projet doit il s’intégrer dans une communication plus globale ? Quelle est la tonalité graphique souhaitée ? Quels sont les éléments à notre disposition (logo, autres outils de communication tels que brochures, affiches, dépliants, etc.) ?
 
 ### Contrat
 
@@ -285,61 +279,55 @@ La phase de pré production est sans doute la plus importante dans un projet mul
 - **Budget:** c’est la phase du projet la plus facile à budgéter. Dans la plupart des cas, si aucun cahier des charges précis n’est donné par le client, c’est même la seule qui peut faire l’objet d’une offre forfaitaire précise. Les autres phases du projet ne peuvent souvent qu’être estimées.
 - **Relation client:** C’est également la phase du projet durant laquelle les interactions avec le client sont les plus importantes et les plus fréquentes. Il vous faudra gérer ces interactions efficacement et en conserver des traces (réunions régulières, pv de réunions, échanges de mails, [Basecamp](https://basecamp.com/one-page-project), [Trello](https://trello.com/), etc.).
 
+Pour défiir un projet multimédia, on utilise en général des documents de guidelines.
+
 #### Documents de guidelines
 
 Ces documents vont définir le projet dans toutes ses dimensions.
 
-##### Roadmap Stratégique
+##### 1. Feuille de route Stratégique
 
-Ce document détaille le contexte du projet, les publics cibles visés, leurs besoins et les business objectives du site.
+Ce document détaille les différents publics cibles, leurs besoins, ainsi que les objectifs du projet vis-à-vis de chaque public cible. Des indicateurs de succès sont également clairement définis.
 
-##### Cahier des charges technique
+##### 2. Cahier des charges technique
 
-Ce document détaille l’ensemble des pré requis techniques du projet, les outils utilisés et les technologies employées et leurs avantages ((X)HTML, CSS, Javascript, Maya, 2D 1/2, Cell Shading, After Effect, Nuke, Python, Mantal Ray, etc.).
+Ce document est une référence technique et défini précisément les différentes technologies utilisées et leurs rôles respectifs dans le cadre du projet ainsi et leurs avantages.
 
 Si le projet comporte des aspects particuliers (e-commerce, responsive web design, particules, transparence complexes, rotoscopie, camera RED, etc. ils seront également mentionnés.
 
-L’important ici est de rester compréhensible. N’assommez pas le client avec du jargon pour du jargon.
+L’important ici est de rester compréhensible. N’assommez pas le client avec du jargon pour du jargon et essayez toujours de vous mettre à la place de vos clients.
 
 - **Exemple:** _Exemple de cahier des charges technique_
 - **Exercice:** _Faire un cahier des charges technique pour un projet simple_
 
-##### Architecture d’information
+##### 3. Structure générale (macro)
 
-Il s’agit d’un schéma détaillant la structure d'un projet multimedia au niveau macro (architecture d'information, storyboard, etc.).
-
-De nombreux programmes existent pour créer facilement des schémas d’architecture d’information. Adobe Illustrator ou du papier et quelques marqueurs font cependant parfaitement l’affaire.
+Il s’agit d’un schéma détaillant la structure générale d'un projet multimedia au niveau **macro** (architecture d'information, wireflows, plan général d'un film ou d'une animation (phases principales), etc.).
 
 - **Exemple:** _Exemples d'architectures d'information_
-- **Exercice:** _Réaliser une architecture d'information pour un site simple: blog / portfolio_
+- **Exercice:** _Réaliser une architecture d'information pour un site simple: blog / portfolio ou pour un motion design un film, etc._
 
-##### Data Structure
+##### 4. Structure détaillée (micro)
 
-Ce document défini la structure d'un projet multimedia au niveau micro (data structure, description détaillées des plans, mouvements de caméras, etc.).
-
-Par exemple, une news dans un site Intrenet est composée des éléments suivants: titre, photo, légende de la photo, copyright de la photo, date de publication, summary, body.
+Ce document défini la structure d'un projet multimedia au niveau micro (data structure, wireframes, storyboard (description détaillées des plans, mouvements de caméras, minutages, transitions entre plans), level design, etc.).
 
 - **Exemple:** _Exemples de data structures_
 - **Exercice:** _Réaliser une data structure pour un site simple: blog / portfolio_
 
-##### Wireframes, Scénario et tests de production
+##### 5. Prototypes et tests
 
-Ces documents matérialisent architecture d'information et data structure de façon illustrée. Cela permet de donner plus de relief au projet et de montrer à quoi leproduit fini va ressembler. Il est déjà possible à ce stade d'identifier des faiblesses et de les corriger.
+Si besoin est on réalise également des prototypes "low-fi" ou des tests de production pour établir des techniques et un workflow pour des aspects importants ou complexes du projet (tests d'incrustation, tests VFX, tests d'animations, animatique ou prototypes en code, etc.)
 
-Si besoin est on réalise également des tests de production pour établir des techniques et un workflow pour des aspects importants ou complexes du projet (tests d'incrustation, tests VFX, tests d'animations web ou prototypes en code, etc.)
+Ces prototypes et tests permettent de matérialiser le projet pour les clients, mais aussi d'avoir des conversations impliquant tous les membres de l'équipe et de recueillir leurs inputs sur des aspects importants (technique, rythme, storytelling, etc.)
 
-Ces documents et tests permettent de matérialiser le projet pour les clients, mais aussi d'avoir des conversations impliquant tous les membres de l'équipe et de recueillir leurs inputs.
-
-- **Exemples:** _[Wireframes détaillés](http://viget.com/work/wwf) par Viget / La [Gray Box Methodology](http://v3.jasonsantamaria.com/archive/2004/05/24/grey_box_method.php) par Jason Santa Maria / [Designing in text](http://www.peachpit.com/articles/article.aspx?p=2040824) par Stephen hay_
-- **Exercice** _Réaliser des wireframes et un scénario pour un projet simple: blog / portfolio / animation / effets speciaux_
+- **Exercices** _Exemples d'animatique, de prototypes et de tests_
+- **Exercice:** _Réaliser un prototype d'animatique simple en powerpoint et dessins_
 
 #### Charte graphique
 
-Ce document défini le style graphique du projet. Ces dernières années nous sommes passés à des délivrables agiles qui correspondent mieux à un workflow plus itératif: style guides, style tiles, elements collages, prototypes HTML / CSS, etc.
+Ce document défini le style graphique du projet. Ces dernières années nous sommes passés à des délivrables agiles qui correspondent mieux à un workflow plus itératif: style guides, style tiles, elements collages, moodboards, etc.
 
-Exemples: Style Guides ([BBC Global Experience Language](http://www.bbc.co.uk/gel)), Sammanta Warren [Style Tiles](http://styletil.es/), Dan Brown [Elements Collages](http://danielmall.com/articles/rif-element-collages/), Mark Boulton pour [de Standaard](http://designingfortheweb.co.uk/book/part5/part5_chapter25.php)
-
-Ces délivrables permettent de décrire les composants de la charte graphique (logo, couleurs, typographie, images, etc.) sans pour autant devoir aller jusqu'à la production de chacun des écrans.
+Ces délivrables permettent de décrire les composants de la charte graphique (logo, couleurs, typographie, images, etc.) sans pour autant devoir aller jusqu'à la production de chacun des écrans, animations, pages, etc.
 
 > [... the design process ...] is about designing, prototyping and making. When you separate those, I think the final result suffers."
 > Jonathan Ive, March, 2012
@@ -350,7 +338,7 @@ Ces délivrables permettent de décrire les composants de la charte graphique (l
 
 Les projets multimedia ont grandement évolués et sont devenus plus complexes: nous devons maintenant créer des systèmes de plus en plus modulaires et de plus en plus flexibles. Le nombre d’inconnues et d’éléments entrant en ligne de compte dans un projet multimedia ne cesse d’augmenter.
 
-Cela requiert des changements dans les process et [workflow utilisés](http://viljamis.com/blog/2012/responsive-workflow/), qui deviennent de plus en plus itératifs et participatifs et exigeants une plus grande collaboration et un dialogue plus étroit entre les différents intervenants.
+Cela requiert des changements dans les process et workflow utilisés, qui deviennent de plus en plus itératifs et participatifs et exigeants une plus grande collaboration et un dialogue plus étroit entre les différents intervenants.
 
 > You must also address the very human issue of communication. Earlier and more frequent collaboration among team members and the client must become the rule in your workflow, not the exception. Content, design, and development team members must review and collaborate regularly at every stage in the creation process until the site is live. We can’t ‘throw it over the wall’ anymore— at least, not if we want our sites to be excellent. There are simply too many moving parts now. Go forth and collaborate.
 >
@@ -360,19 +348,17 @@ Cela requiert des changements dans les process et [workflow utilisés](http://v
 
 Lorsque les projets multimédia ont dérapent c'est le plus souvent en phase de production. Veillez à tenir un décompte précis du temps passé sur le projet. Si vous vous êtes trompés dans vos estimations de départ, ayez au moins de solides bases pour la prochaine fois.
 
-Si vous devez faire face à des demandes du client qui ne correspondent pas au cadre défini pour le projet, communiquez immédiatement au client que sa demande sort du cadre prévu pour cette phase du projet (reportez-vous aux documents de guidelines) et assurez-le du faite que vous avez pris note de sa demande pour une phase ultérieure.
+Si vous devez faire face à des demandes du client qui ne correspondent pas au cadre défini pour le projet, communiquez immédiatement au client que sa demande sort du cadre prévu pour cette phase du projet (reportez-vous aux documents de guidelines) et assurez-le du fait que vous avez pris note de sa demande pour une phase ultérieure.
 
 Communiquez régulièrement au client (si possible à des dates convenues) l’état d’avancement du projet, cela vous évitera de perdre du temps en production. Soyez clair et honnête et référez-vous au planning prévu dans l’offre. Veillez également à planifier des réunions régulières avec le client (et plus particulièrement avec son chef de projet), afin de maintenir un bon niveau d’implication de ce dernier dans le projet.
 
-Des outils tels que [Basecamp](https://basecamp.com/) peuvent vous aider à maintenir une conversation régulière avec le client, de même qu'un simple point régulier (journalier / hebdomadaire) avec le client via Skype ou par téléphone.
-
-**Exemple:** [Basecamp et Happy Cog](http://vimeo.com/37909699)
+Des outils tels que [Basecamp](https://basecamp.com/) ou [Trello](https://trello.com) peuvent vous aider à maintenir une conversation régulière avec le client, de même qu'un simple point régulier (journalier / hebdomadaire) avec le client via Skype ou par téléphone.
 
 #### Liste des tâches
 
 C'est ici qu'intervient la notion de segmentation. Segmentez vos tâches le plus possible, afin de pourvoir facilement estimer et comptabiliser le temps passé sur chacune d'entre elles.
 
-Un exemple des tâches courantes pour la production d'un site Internet
+Un exemple des tâches courantes pour la production d'un site Internet.
 
 - Gestion de projet
 - Production et adaptation des contenus textuels
@@ -392,11 +378,12 @@ Un exemple des tâches courantes pour la production d'un site Internet
 - Déploiement
 - Tests finaux sur le serveur de production
 
-**Exercice**: montrer un programme comme Trello ou un projet sur Github
+Plus vous allez faire des projets dans un certain domaine, plus vous aurez une liste des tâches de départ qui sera claire et complète.
 
+**Exercice**: montrer un programme comme Trello ou un projet sur Github
 **Exercice**: phases principales pour un court métrage effets speciaux, un motion design et une animation 3D
 
-### Phase de post-production.
+### Phase de post-production
 
 Un projet multimédia ne s'arrête pas forcément avec la fin de la phase de production. Dans le cas d'un site internet, c'est parfois là que l'aventure commence: promotion et dissémination, mises à jours, suivi en temps réel des indicateurs et itérations, formations clients, etc.
 
@@ -406,11 +393,17 @@ Vous travaillerez souvent avec des équipes internes. Vous avez travaillé sur u
 
 #### Opérations de maintenance
 
-La durée de vie d’un projet multimédia est relativement courte en général mais peut néanmoins s’étendre sur plusieurs années. Des opérations de maintenance devront immanquablement avoir lieu (mises à jour CMS et serveurs, nouveau développements convenus dans des phases ultérieures du projet, etc.). Cela rassurera en outre votre client si vous proposez d’emblée de les réaliser. Au stade de l’offre, il suffit de mentionner le type d’opération de maintenance et un tarif horaire, journalier.
+La durée de vie d’un projet multimédia est relativement courte en général mais peut néanmoins s’étendre sur plusieurs années.
+
+Des opérations de maintenance devront immanquablement avoir lieu (mises à jour CMS et serveurs, nouveau développements convenus dans des phases ultérieures du projet, etc.).
+
+Cela rassurera en outre votre client si vous proposez d’emblée de les réaliser. Au stade de l’offre, il suffit de mentionner le type d’opération de maintenance et un tarif horaire, journalier.
 
 #### Actions de dissémination et de promotion.
 
-Ces actions visent à ce que le site soit d’avantage connu et visité. Plusieurs type d’action sont possibles: guerilla marketing, promotion papier, promotion sur des sites du secteur, etc. A vous de voir si vous avez les compétences et les ressources nécessaires pour proposer ce genre de chose.
+Ces actions visent à ce que le projet soit d’avantage connu et utilisé. Plusieurs type d’actions sont possibles: guerilla marketing, promotion papier, promotion sur les ùedia sociaux, etc. A vous de voir si vous avez les compétences et les ressources nécessaires pour proposer ce genre de chose.
+
+Même si vous ne vous chargez pas de la promotion, vous devrez la prévoir dans votre travail: trailer, making-of, visuels pour une affiche, etc.
 
 ## Ressources
 
