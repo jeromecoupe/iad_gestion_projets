@@ -241,10 +241,13 @@ Les agences ou les indépendants ont également parfois tendance à sous-estimer
 
 La première étape consiste à évaluer au mieux le prix que vous devez demander pour vos prestations. En Belgique, on peut appliquer une formule relativement simple pour estimer les choses (je ne prétends pas être comptable, mais j'en ai consulté l'un ou l'autre):
 
-1. Salaire net \* 2 = Salaire brut
-2. Salaire brut _ 13.85 (13ème mois + double pécule de vacances) _ 1.32 (charges patronales) = coût annuel société
+1. Salaire net x 2 = Salaire brut + frais
+2. Salaire brut x 13.85 (13ème mois + double pécule de vacances) x 1.32 (charges patronales) = coût annuel société
 3. Coût annuel société / 220 jours ouvrables = coût par jour
-4. Ajoutez encore un peu d'argent pour couvrir vos frais, prendre une assurance pension et vous constituer un petit matelas pour faire face aux jours de vaches maîgres.
+4. Attention, 100% de votre temps de travail ne sera pas facturable (comptabilité, offres, rendez-vous clients, etc)
+5. Idéalement, il vous faudra encore ajouter de quoi vous constituer un petit matelas pour faire face aux jours de vaches maîgres
+
+_Exemple: 2000 EUR de salaire net visé donnent 4000 EUR de salaire brut et de frais, soit 73128 EUR coût annuel société. Ce qui donne un minimum de 332 EUR comme prix à la journée (arrondis à 350). Si 70% de votre temps de travail est facturable, nous arrivons à un prix de 500 EUR la journée._
 
 ### Types d'offres
 
