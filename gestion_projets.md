@@ -245,7 +245,7 @@ La première étape consiste à évaluer au mieux le prix que vous devez demande
 2. Salaire brut x 13.85 (13ème mois + double pécule de vacances) x 1.32 (charges patronales) = coût annuel société
 3. Coût annuel société / 220 jours ouvrables = coût par jour
 4. Attention, 100% de votre temps de travail ne sera pas facturable (comptabilité, offres, rendez-vous clients, etc)
-5. Idéalement, il vous faudra encore ajouter de quoi vous constituer un petit matelas pour faire face aux jours de vaches maîgres
+5. Idéalement, il vous faudra encore ajouter de quoi vous constituer un petit matelas pour faire face aux jours de vaches maigres.
 
 _Exemple: 2000 EUR de salaire net visé donnent 4000 EUR de salaire brut et de frais, soit 73128 EUR coût annuel société. Ce qui donne un minimum de 332 EUR comme prix à la journée (arrondis à 350). Si 70% de votre temps de travail est facturable, nous arrivons à un prix de 500 EUR la journée._
 
