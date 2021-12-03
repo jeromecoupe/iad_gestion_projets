@@ -27,7 +27,7 @@ Du côté de l'émetteur:
 
 [verbe] [public cible] de [quoi] au lieu de [quoi] parceque [quoi]
 
-"Rassurer les enreprises avec des besoins en visualisation de données qu'ils peuvent nus choisir au lieu des fournisseurs habituels parceque nous nous adapterons à leurs besoins au lieu de les faire se conformer à nos processus et que nous ne les obligerons pas à utiliser des formats propriétaires mais au contraire des formats open source"
+"Rassurer les entreprises avec des besoins en visualisation de données qu'ils peuvent nus choisir au lieu des fournisseurs habituels parce que nous nous adapterons à leurs besoins au lieu de les faire se conformer à nos processus et que nous ne les obligerons pas à utiliser des formats propriétaires mais au contraire des formats open source"
 
 ## Cahier des charges technique
 
@@ -44,7 +44,7 @@ Exemple: "nous allons utiliser Maya pour le modeling 3D. C'est un standard de l'
 
 - sections et sous sections d’un site
 - chapitres (grandes parties) pour un film ou une animation (durée relatives et informations importantes)
-- mécanique générale et gameplay pour un jeu
+- mécaniques générales et gameplay pour un jeu
 
 Exemple: les grandes parties du film Titanic
 
@@ -61,8 +61,9 @@ Exemple: les grandes parties du film Titanic
 
 **Documents: PDF / Schéma / Storyboard / Data structure**
 
-- storyboard complet pour un film ou une animation: croquis plan / notes / minutages / mvmts caméra / transitions
+- storyboard complet pour un film ou une animation: croquis plan / notes / minutages / mouvements de caméra / transitions
 - structure de données: types de contenus (blogposts, videos, expertises, podcasts, etc.) et data structure (blogpost: image, titre, auteur, date de publication, introduction, body)
+- level design pour un jeu: nombre de niveaux et descriptions détaillées (interactions, énigmes, etc.), grandes zones et descriptions détaillées (caractéristiques, maps, etc.), personnages et interactions (nombre de personnages, caractéristiques précises, interactions, etc.), description des state machines (différents états pour personnages, éléments interactifs, etc.) et des données (settings pour les personnages, les terrains, les éléments interactifs, settings d'ensemble, etc.).
 
 Exemples: https://www.artstation.com/artwork/rqOY2
 
@@ -72,8 +73,8 @@ _A ne pas faire pour le cours de gestion de projet (pas demandé) mais essentiel
 
 **Documents: animatique, tests techniques**
 
-- animatique: une version animée low-fidelity de votre storyboard (test au niveau du rythme / compréhension)
-- tests techniques: rendus, fonctionnalités web complexes, tests de marches, tests de particules, tests de fluides, tests rigging / lighting, tests VFX etc.
+- tests de rythme, de gameplay, d'interface: animatique (version animée low-fidelity de votre storyboard: test au niveau du rythme / compréhension), test low-fidelity pour un jeu (version avec ), wireframes et wireflows pour un site / une application), etc.
+- tests techniques: rendus, fonctionnalités web complexes, tests de marches, tests de particules, tests de fluides, tests rigging / lighting, tests VFX, tests d'interactions, etc.
 
 Exemples: https://www.youtube.com/watch?v=MRyPSOyC7_c&gl=BE - https://www.youtube.com/watch?v=rxqp2msGOhQ
 
@@ -84,4 +85,4 @@ Exemples: https://www.youtube.com/watch?v=MRyPSOyC7_c&gl=BE - https://www.youtub
 - définir les aspects graphiques principaux: couleurs, typographie, rythme verticaux, grilles, rendus (cell shading, ligne claire, low poly), concepts graphiques
 - se focaliser sur les "blocs de legos graphiques" plutôt que sur le produit fini en lui-même. Ce qu'on construit est une boite à outils graphique.
 
-Exemples: Moodboard couleurs, personnages, décors, points d'attention particuliers (styles d'animation, de dessin, de rendus, etc) pour une animation 2D - Couleur, typographie, icones, visuels, composants pour un site Internet ou une application.
+Exemples: références graphiques, moodboard couleurs, personnages, décors, points d'attention particuliers (styles d'animation, de dessin, de rendus, etc), palette de couleurs, charte typographique, icones, visuels, composants, etc.
