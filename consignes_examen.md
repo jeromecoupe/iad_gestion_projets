@@ -65,7 +65,7 @@ Exemple: les grandes parties du film Titanic
 - structure de données: types de contenus (blogposts, videos, expertises, podcasts, etc.) et data structure (blogpost: image, titre, auteur, date de publication, introduction, body)
 - level design pour un jeu: nombre de niveaux et descriptions détaillées (interactions, énigmes, etc.), grandes zones et descriptions détaillées (caractéristiques, maps, etc.), personnages et interactions (nombre de personnages, caractéristiques précises, interactions, etc.), description des state machines (différents états pour personnages, éléments interactifs, etc.) et des données (settings pour les personnages, les terrains, les éléments interactifs, settings d'ensemble, etc.).
 
-Exemples: https://www.artstation.com/artwork/rqOY2
+Exemples: https://www.theguardian.com/film/gallery/2011/may/21/apocalypse-now-storyboards
 
 ## Tests
 
